@@ -49,12 +49,16 @@ body {
 
 /*Features*/
 
-.features{
-    padding-top: 122rem;
+#features{
+    padding: 4% 0 4% 0;
 }
 
+.feature-box{
+    text-align: center;
+}
 .features-titles{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 900;
 }
 
 .features-description{
@@ -64,9 +68,7 @@ body {
 .features-icons{
     color: #ff4c68;
     font-size: 3rem;
-    margin-left: 35%;    
 }
 .features-icons:hover{
-    text-align: center;
     color: #77232f;
 }
